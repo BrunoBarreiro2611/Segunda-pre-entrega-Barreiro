@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Edades</title>
+    <link rel="stylesheet" href="simulador-edades.css">
+</head>
+<body>
+    <h1>Simulador de Edades</h1>
+    <h2>Calculadora de Edad Promedio</h2>
+    <div class="input-container">
+        <label for="edadInput">Ingresa una edad (0 - 110):</label>
+        <input type="number" id="edadInput" min="0" max="110">
+        <button id="btnListo">Agregar Edad</button>
+    </div>
+    <div class="resultados">
+        <div id="mensaje" class="mensaje"></div>
+        <div id="promedio" class="promedio"></div>
+        <div id="edadesRegistradas" class="edades-registradas"></div>
+        <button id="btnCalcularPromedio">Calcular Promedio</button>
+    </div>
+    <script src="simulador-edades.js"></script>
+</body>
+</html>
